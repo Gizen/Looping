@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="19" Margin="177,10,0,0" TextWrapping="Wrap" Text="Loan Calculator" VerticalAlignment="Top" Width="85"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="20" Margin="177,44,0,0" TextWrapping="Wrap" Text="Loan Amount:" VerticalAlignment="Top" Width="85"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="20" Margin="177,95,0,0" TextWrapping="Wrap" Text="Monthly Payment:" VerticalAlignment="Top" Width="99"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="20" Margin="177,146,0,0" TextWrapping="Wrap" Text="Interest Rate:" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="textBoxLoanAmount" HorizontalAlignment="Left" Height="21" Margin="177,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxPaymentAmount" HorizontalAlignment="Left" Height="21" Margin="177,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxInterestRate" HorizontalAlignment="Left" Height="21" Margin="177,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <Button x:Name="buttonLoanCalculator" Content="Start" HorizontalAlignment="Left" Height="39" Margin="177,209,0,0" VerticalAlignment="Top" Width="103" Click="buttonLoanCalculator_Click"/>
+        <TextBlock x:Name="textBlockLoanAnswer" HorizontalAlignment="Left" Height="57" Margin="177,253,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="103"/>
     </Grid>
 </Window>

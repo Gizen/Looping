@@ -24,5 +24,32 @@ namespace Looping
         {
             InitializeComponent();
         }
+
+        private void buttonLoanCalculator_Click(object sender, RoutedEventArgs e)
+        {
+            LoanCalc();
+        }
+
+
+
+        public void LoanCalc()
+        {
+            int amount = Convert.ToInt32(textBoxLoanAmount.Text);
+            int payment = Convert.ToInt32(textBoxPaymentAmount.Text);
+            int months = 0;
+            while (true)
+            {
+                months++;
+                amount -= payment;
+                if (amount <= 0)
+                {
+                    break;
+                }
+
+            }
+            textBlockLoanAnswer.Text = "The Loan Was Payed Off In " + months + " Months.";
+        }
+
+
     }
 }
