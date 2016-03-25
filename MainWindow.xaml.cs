@@ -30,7 +30,10 @@ namespace Looping
             LoanCalc();
         }
 
-
+        private void buttonXToTheNthStart_Click(object sender, RoutedEventArgs e)
+        {
+            XToTheNth();
+        }
 
         public void LoanCalc()
         {
@@ -48,6 +51,22 @@ namespace Looping
 
             }
             textBlockLoanAnswer.Text = "The Loan Was Payed Off In " + months + " Months.";
+        }
+
+        public void XToTheNth()
+        {
+            int n = Convert.ToInt32(textBoxNth.Text);
+            int x = Convert.ToInt32(textBoxX.Text);
+            int count = n;
+            int answer = 1;
+            do
+            {
+                answer = answer * x;
+                count--;
+            }
+            while (count != 0);
+            textBlockXToTheNthAnswer.Text = Convert.ToString(answer);
+
         }
 
 

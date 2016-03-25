@@ -15,6 +15,13 @@
         <TextBox x:Name="textBoxPaymentAmount" HorizontalAlignment="Left" Height="21" Margin="177,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
         <TextBox x:Name="textBoxInterestRate" HorizontalAlignment="Left" Height="21" Margin="177,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
         <Button x:Name="buttonLoanCalculator" Content="Start" HorizontalAlignment="Left" Height="39" Margin="177,209,0,0" VerticalAlignment="Top" Width="103" Click="buttonLoanCalculator_Click"/>
-        <TextBlock x:Name="textBlockLoanAnswer" HorizontalAlignment="Left" Height="57" Margin="177,253,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="103"/>
+        <TextBlock x:Name="textBlockLoanAnswer" HorizontalAlignment="Left" Height="57" Margin="177,253,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="103"/>
+        <TextBlock x:Name="textBlockXToTheNth" HorizontalAlignment="Left" Height="19" Margin="19,10,0,0" TextWrapping="Wrap" Text="X To The Nth" VerticalAlignment="Top" Width="85"/>
+        <TextBlock x:Name="textBlockX" HorizontalAlignment="Left" Height="20" Margin="19,44,0,0" TextWrapping="Wrap" Text="X:" VerticalAlignment="Top" Width="85"/>
+        <TextBlock x:Name="textBlockNth" HorizontalAlignment="Left" Height="20" Margin="19,95,0,0" TextWrapping="Wrap" Text="Nth:" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="textBoxX" HorizontalAlignment="Left" Height="21" Margin="19,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textBoxNth" HorizontalAlignment="Left" Height="21" Margin="19,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <TextBlock x:Name="textBlockXToTheNthAnswer" HorizontalAlignment="Left" Height="57" Margin="19,258,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="103"/>
+        <Button x:Name="buttonXToTheNthStart" Content="Start" HorizontalAlignment="Left" Height="44" Margin="19,209,0,0" VerticalAlignment="Top" Width="103" Click="buttonXToTheNthStart_Click"/>
     </Grid>
 </Window>
