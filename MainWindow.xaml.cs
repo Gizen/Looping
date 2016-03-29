@@ -37,7 +37,7 @@ namespace Looping
 
         private void buttonHailstoneStart_Click(object sender, RoutedEventArgs e)
         {
-
+            HailstoneSeq();
         }
 
         public void LoanCalc()
@@ -46,22 +46,11 @@ namespace Looping
             int payment = Convert.ToInt32(textBoxPaymentAmount.Text);
             int months = 0;
 
-            for(amount = Convert.ToInt32(textBoxLoanAmount); amount >= 0; months ++)
+            for(amount = Convert.ToInt32(textBoxLoanAmount.Text); amount > 0; months ++)
             {
                 amount = amount - payment;
             }
 
-
-            //while (true)
-            //{
-            //    months++;
-            //    amount -= payment;
-            //    if (amount <= 0)
-            //    {
-            //        break;
-            //    }
-
-            //}
             textBlockLoanAnswer.Text = "The Loan Was Payed Off In " + months + " Months.";
         }
 
@@ -83,13 +72,25 @@ namespace Looping
 
         public void HailstoneSeq()
         {
-            while ( )
+            int number = Convert.ToInt32(textBoxHailstoneStart.Text);
+            string text = textBlockhailstoneAnswer.Text;
+            while (number != 1)
+            {
+                if(number == 1)
+                {
+                    break;
+                }
+                if(number % 2 == 0)
+                {
+                    number = number / 2;
+                }
+                else
+                {
+                    number = number * 3 + 1;
+                }
+                text = text + Convert.ToString(number);
+            }
 
-            //int number = Convert.ToInt32(textBoxHailstoneStart.Text);
-            //for (int count = number; count != 1; )
-            //{
-
-            //}
         }
 
     }
