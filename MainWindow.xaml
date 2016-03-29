@@ -28,6 +28,6 @@
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="20" Margin="332,34,0,0" TextWrapping="Wrap" Text="Starting Value" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="buttonHailstoneStart" Content="Start" HorizontalAlignment="Left" Height="20" Margin="332,84,0,0" VerticalAlignment="Top" Width="100" Click="buttonHailstoneStart_Click"/>
         <TextBox x:Name="textBlockhailstoneAnswer" HorizontalAlignment="Left" Height="192" Margin="332,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Height="19" Margin="332,10,0,0" TextWrapping="Wrap" Text="Hailstone Seq" VerticalAlignment="Top" Width="89"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Height="20" Margin="332,10,0,0" TextWrapping="Wrap" Text="Hailstone Seq" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
