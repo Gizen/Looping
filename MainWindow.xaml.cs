@@ -73,7 +73,7 @@ namespace Looping
         public void HailstoneSeq()
         {
             int number = Convert.ToInt32(textBoxHailstoneStart.Text);
-            string text = textBlockhailstoneAnswer.Text;
+            string text = Convert.ToString(number);
             while (number != 1)
             {
                 if(number == 1)
@@ -88,7 +88,8 @@ namespace Looping
                 {
                     number = number * 3 + 1;
                 }
-                text = text + Convert.ToString(number);
+                text = text + ", " + Convert.ToString(number);
+                textBlockhailstoneAnswer.Text = text;
             }
 
         }
