@@ -61,12 +61,17 @@ namespace Looping
             int count = n;
             int answer = 1;
             do
+                {
+
+                    answer = answer * x;
+                    count--;
+                }
+                while (count != 0);
+                textBlockXToTheNthAnswer.Text = Convert.ToString(answer);
+            if (count == 0)
             {
-                answer = answer * x;
-                count--;
+                answer = 1;
             }
-            while (count != 0);
-            textBlockXToTheNthAnswer.Text = Convert.ToString(answer);
 
         }
 

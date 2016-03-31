@@ -8,7 +8,6 @@
         Title="MainWindow" Height="350" Width="525
         ">
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="19" Margin="177,10,0,0" TextWrapping="Wrap" Text="Loan Calculator" VerticalAlignment="Top" Width="85"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="20" Margin="177,34,0,0" TextWrapping="Wrap" Text="Loan Amount:" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="20" Margin="177,84,0,0" TextWrapping="Wrap" Text="Monthly Payment:" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="20" Margin="177,134,0,0" TextWrapping="Wrap" Text="Interest Rate:" VerticalAlignment="Top" Width="100"/>
@@ -17,7 +16,6 @@
         <TextBox x:Name="textBoxInterestRate" HorizontalAlignment="Left" Height="20" Margin="177,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="buttonLoanCalculator" Content="Start" HorizontalAlignment="Left" Height="20" Margin="177,184,0,0" VerticalAlignment="Top" Width="100" Click="buttonLoanCalculator_Click"/>
         <TextBlock x:Name="textBlockLoanAnswer" HorizontalAlignment="Left" Height="100" Margin="177,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="textBlockXToTheNth" HorizontalAlignment="Left" Height="19" Margin="19,10,0,0" TextWrapping="Wrap" Text="X To The Nth" VerticalAlignment="Top" Width="85"/>
         <TextBlock x:Name="textBlockX" HorizontalAlignment="Left" Height="20" Margin="19,34,0,0" TextWrapping="Wrap" Text="X:" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="textBlockNth" HorizontalAlignment="Left" Height="20" Margin="19,84,0,0" TextWrapping="Wrap" Text="Nth:" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="textBoxX" HorizontalAlignment="Left" Height="20" Margin="19,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
@@ -28,6 +26,8 @@
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="20" Margin="332,34,0,0" TextWrapping="Wrap" Text="Starting Value:" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="buttonHailstoneStart" Content="Start" HorizontalAlignment="Left" Height="20" Margin="332,184,0,0" VerticalAlignment="Top" Width="100" Click="buttonHailstoneStart_Click"/>
         <TextBox x:Name="textBlockhailstoneAnswer" HorizontalAlignment="Left" Height="100" Margin="332,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Height="20" Margin="332,10,0,0" TextWrapping="Wrap" Text="Hailstone Seq" VerticalAlignment="Top" Width="100"/>
+        <GroupBox x:Name="groupBox" Header="X To The Nth" HorizontalAlignment="Left" Height="300" Margin="10,11,0,0" VerticalAlignment="Top" Width="150"/>
+        <GroupBox x:Name="groupBox1" Header="Loan Calculator" HorizontalAlignment="Left" Height="300" Margin="165,11,0,0" VerticalAlignment="Top" Width="150"/>
+        <GroupBox x:Name="groupBox2" Header="Hailstone Sequence" HorizontalAlignment="Left" Height="300" Margin="320,11,0,0" VerticalAlignment="Top" Width="150"/>
     </Grid>
 </Window>
