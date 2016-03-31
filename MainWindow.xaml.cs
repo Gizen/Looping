@@ -66,7 +66,7 @@ namespace Looping
                     answer = answer * x;
                     count--;
                 }
-                while (count != 0);
+                while (count >= 0);
                 textBlockXToTheNthAnswer.Text = Convert.ToString(answer);
             if (count == 0)
             {
