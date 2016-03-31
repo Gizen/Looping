@@ -16,18 +16,18 @@
         <TextBox x:Name="textBoxPaymentAmount" HorizontalAlignment="Left" Height="20" Margin="177,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="textBoxInterestRate" HorizontalAlignment="Left" Height="20" Margin="177,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="buttonLoanCalculator" Content="Start" HorizontalAlignment="Left" Height="20" Margin="177,184,0,0" VerticalAlignment="Top" Width="100" Click="buttonLoanCalculator_Click"/>
-        <TextBlock x:Name="textBlockLoanAnswer" HorizontalAlignment="Left" Height="50" Margin="177,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:Name="textBlockLoanAnswer" HorizontalAlignment="Left" Height="100" Margin="177,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="textBlockXToTheNth" HorizontalAlignment="Left" Height="19" Margin="19,10,0,0" TextWrapping="Wrap" Text="X To The Nth" VerticalAlignment="Top" Width="85"/>
         <TextBlock x:Name="textBlockX" HorizontalAlignment="Left" Height="20" Margin="19,34,0,0" TextWrapping="Wrap" Text="X:" VerticalAlignment="Top" Width="100"/>
         <TextBlock x:Name="textBlockNth" HorizontalAlignment="Left" Height="20" Margin="19,84,0,0" TextWrapping="Wrap" Text="Nth:" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="textBoxX" HorizontalAlignment="Left" Height="20" Margin="19,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="textBoxNth" HorizontalAlignment="Left" Height="20" Margin="19,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="textBlockXToTheNthAnswer" HorizontalAlignment="Left" Height="50" Margin="19,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:Name="textBlockXToTheNthAnswer" HorizontalAlignment="Left" Height="100" Margin="19,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="buttonXToTheNthStart" Content="Start" HorizontalAlignment="Left" Height="20" Margin="19,184,0,0" VerticalAlignment="Top" Width="100" Click="buttonXToTheNthStart_Click"/>
         <TextBox x:Name="textBoxHailstoneStart" HorizontalAlignment="Left" Height="20" Margin="332,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="20" Margin="332,34,0,0" TextWrapping="Wrap" Text="Starting Value" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="buttonHailstoneStart" Content="Start" HorizontalAlignment="Left" Height="20" Margin="332,84,0,0" VerticalAlignment="Top" Width="100" Click="buttonHailstoneStart_Click"/>
-        <TextBox x:Name="textBlockhailstoneAnswer" HorizontalAlignment="Left" Height="192" Margin="332,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="20" Margin="332,34,0,0" TextWrapping="Wrap" Text="Starting Value:" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="buttonHailstoneStart" Content="Start" HorizontalAlignment="Left" Height="20" Margin="332,184,0,0" VerticalAlignment="Top" Width="100" Click="buttonHailstoneStart_Click"/>
+        <TextBox x:Name="textBlockhailstoneAnswer" HorizontalAlignment="Left" Height="100" Margin="332,209,0,0" TextWrapping="Wrap" Text="Answer" VerticalAlignment="Top" Width="100" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
         <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Height="20" Margin="332,10,0,0" TextWrapping="Wrap" Text="Hailstone Seq" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
